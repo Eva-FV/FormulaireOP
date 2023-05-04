@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="contact-box">
+
+
+
+            <img src="onepiece.jpg" alt="image">
+            <div class="right">
+                <h1>Formulaire de contact</h1>
+
+                <form>
+
+                    <div class="genre">
+                        <input type="radio" id="Madame" name="genre" value="genre">
+                        <label for="Genre">Madame</label>
+
+                        <input type="radio" id="Monsieur" name="genre" value="genre">
+                        <label for="Genre">Monsieur</label>
+
+                        <input type="radio" id="Autre" name="autre" value="autre">
+                        <label for="Autre">Autre</label>
+                    </div>
+
+                </form>
+                <br>
+
+
+
+
+                <label for="nom">Nom Prénom :</label>
+
+                <input type="text" name="nom" class="texte" placeholder="Jean Marie">
+
+
+                <label for="email">Email :</label>
+                <input type="email" name="email" class="texte" placeholder="eva@gmail.com">
+
+
+                <label for="telephone">Numéro :</label>
+                <input type="tel" name="telephone" class="texte" placeholder="0692000000">
+
+                <textarea name="message" id="message" class="text-area" cols="40" rows="8" placeholder="Votre message"></textarea>
+
+
+                <input class="btn" type="button" value="Envoyer">
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
