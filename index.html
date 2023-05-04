@@ -10,57 +10,62 @@
 </head>
 
 <body>
+    <main>
 
-    <div class="container">
-        <div class="contact-box">
-
-
-
-            <img src="onepiece.jpg" alt="image">
-            <div class="right">
-                <h1>Formulaire de contact</h1>
-
-                <form>
-
-                    <div class="genre">
-                        <input type="radio" id="Madame" name="genre" value="genre">
-                        <label for="Madame">Madame</label>
-
-                        <input type="radio" id="Monsieur" name="genre" value="genre">
-                        <label for="Genre">Monsieur</label>
-
-                        <input type="radio" id="Genre" name="genre" value="genre">
-                        <label for="Genre">Autre</label>
-                    </div>
-
-                </form>
-                <br>
+        <div class="container">
+            <div class="contact-box">
 
 
 
+                <img src="onepiece.jpg" alt="image_onepiece">
+                <div class="right">
+                    <h1>Formulaire de contact</h1>
 
-                <label for="nom">Nom Prénom :</label>
+                    <form>
+                        <fieldset>
+                            <legend>Quel est votre genre ?</legend>
+                            <div class="genre">
+                                <input type="radio" id="Madame" name="genre" value="genre">
+                                <label for="Madame">Madame</label>
 
-                <input id="nom" type="text" name="nom" class="texte" placeholder="Jean Marie">
+                                <input type="radio" id="Monsieur" name="genre" value="genre">
+                                <label for="Monsieur">Monsieur</label>
+
+                                <input id="Genre" type="radio" name="genre" value="genre">
+                                <label for="Genre">Autre</label>
+                            </div>
+                        </fieldset>
+
+                    </form>
+                    <br>
 
 
-                <label for="email">Email :</label>
-                <input id="email" type="email" name="email" class="texte" placeholder="eva@gmail.com">
 
 
-                <label for="telephone">Numéro :</label>
-                <input id="telephone" type="tel"  name="telephone" class="texte" placeholder="0692000000">
+                    <label for="nom">Nom Prénom :</label>
 
-                <textarea name="message" id="message" class="text-area" cols="40" rows="8" placeholder="Votre message"></textarea>
+                    <input id="nom" type="text" name="nom" class="texte" placeholder="Jean Marie">
 
 
-                <input class="btn" type="button" value="Envoyer">
+                    <label for="email">Email :</label>
+                    <input id="email" type="email" name="email" class="texte" placeholder="eva@gmail.com">
 
+
+                    <label for="telephone">Numéro :</label>
+                    <input id="telephone" type="tel" name="telephone" class="texte" placeholder="0692000000">
+
+                    <label for="message">Votre Message</label>
+                    <textarea name="message" id="message" class="text-area" cols="40" rows="8" placeholder="Votre message"></textarea>
+
+
+                    <input id="button" class="btn" type="button" value="Envoyer">
+
+
+                </div>
             </div>
         </div>
-    </div>
 
-
+    </main>
 </body>
 
 </html>
